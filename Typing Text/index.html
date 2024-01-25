@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How To Make Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <nav>
+            <img src="./images/logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">SERVICES</a></li>
+            </ul>
+            <img src="./images/menu.png" class="menu-img">
+        </nav>
+        <div class="text-box">
+            <h1>I'm <span class="auto-input"></span></h1>
+            <p>You can reach out to me if you need any help in making a<br>website for you or your buisness.</p>
+            <a href="">Contact Me</a>
+            <a href="" class="btn">Download CV</a>
+        </div>
+        <img src="./images/user.png" class="user-img">
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed =- new Typed(".auto-input", {
+            strings: ["Anna Amelia", "Web Developer", "UI Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true
+        });
+    </script>
+</body>
+</html>
